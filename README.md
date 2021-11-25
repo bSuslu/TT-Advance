@@ -2,4 +2,4 @@
 
 This is an Tournament Tracker Application using many features of C#.
 
-I need the refactor more.
+When I have time. I will refactor more.
