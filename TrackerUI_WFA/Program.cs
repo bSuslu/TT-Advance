@@ -18,7 +18,7 @@ namespace TrackerUI_WFA
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            TrackerLibrary.GlobalConfig.InitializedConnections(DatabaseType.Sql);
+            TrackerLibrary.GlobalConfig.InitializedConnections(DatabaseType.TextFile);
 
             Application.Run(new TournamentDashboardForm());
 
