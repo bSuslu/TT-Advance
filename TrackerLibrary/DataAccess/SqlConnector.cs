@@ -71,16 +71,16 @@ namespace TrackerLibrary.DataAccess
                 }
             }
         }
-        public void CreateTournament(TournamentModel model)
-        {
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString(db)))
-            {
-                SaveTournament(connection, model);
-                SaveTournamentEntries(connection, model);
-                SaveTournamentPrizes(connection, model);
-                SaveTournamentRounds(connection, model);
-            }
-        }
+        //public void CreateTournament(TournamentModel model)
+        //{
+        //    using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString(db)))
+        //    {
+        //        SaveTournament(connection, model);
+        //        SaveTournamentEntries(connection, model);
+        //        SaveTournamentPrizes(connection, model);
+        //        SaveTournamentRounds(connection, model);
+        //    }
+        //}
 
         public List<PrizeModel> GetPrize_All()
         {
